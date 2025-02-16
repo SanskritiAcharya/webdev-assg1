@@ -1,0 +1,188 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #4A4A4A;
+    background-color: #f5eddc;
+}
+
+.navbar {
+    background: #8B5E3C;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #F5DEB3 !important;
+}
+
+.hero {
+    background: url('https://img.freepik.com/free-vector/paper-style-smooth-background_23-2148985107.jpg') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(245, 245, 220, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2E2E2E;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #5A5A5A;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.btn-custom, .btn-dark {
+    background-color: #8B5E3C;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.btn-custom:hover, .btn-dark:hover {
+    background-color: #6A4227;
+}
+
+.about-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.about-container h1, .contact-container h2 {
+    color: #8B5E3C;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-container h3 {
+    color: #6A4227;
+    margin-top: 20px;
+}
+
+.about-container p, .contact-container p {
+    font-size: 1.1rem;
+    color: #5A5A5A;
+    line-height: 1.6;
+}
+
+.contact-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contact-list {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-list li {
+    background: #F8EDE3;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #8B5E3C;
+    transition: 0.3s;
+}
+
+.contact-list a:hover {
+    color: #6A4227;
+}
+
+footer {
+    background: #8B5E3C;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.contact-list .list-group-item {
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    border: none;
+    padding: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.contact-list .list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.contact-list a:hover {
+    color: #6c757d;
+}
+
+.contact-btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #343a40;
+}
